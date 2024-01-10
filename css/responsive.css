@@ -1,0 +1,51 @@
+.close{display: none;}
+.open{display: block;}
+@media only screen and (min-width: 480px)  {
+	.item_infor > span{
+		top: 12px; 
+	}
+	#web-btn{
+		top: 160px; left: 0;
+	}
+}
+@media only screen and (max-width: 480px)  {
+	#web-back{
+		bottom: 50%;
+		right: 12px;
+	}
+	.web_wrap{
+		display: block;
+	}
+	#web-list .list_box{
+		grid-template-columns: repeat(2, 1fr);
+		top: 20px;
+		max-height: 300px;
+	}
+	.item_infor > span{
+		font-size: 12px;
+		bottom: 0;
+	}
+	#recent-comics{
+		background: rgba(0,0,0,0.2);
+		max-height: 180px;
+		overflow-y: scroll;
+	}
+	#web-list .list_recently > span {
+		font-size: 16px;
+	}
+	.list_close{
+		right: 20px;
+		background: rgba(0,0,0,0.8);
+		z-index: 999;
+		font-size: 16px;
+	}
+	#web-btn{
+		font-size: 14px;
+		padding: 11px;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		background: rgba(0,0,0,0.2);
+	}
+}
+	

@@ -1,0 +1,23 @@
+*{
+	padding: 0; margin:0;
+	box-sizing: border-box;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	scroll-behavior: smooth;
+}
+body{
+	background: #2b2a2a;
+}
+:root{
+	--white: #ffffff;
+	--black: #000000;
+	--border: brown;
+	--web: tomato;
+}
+/* ---------------------------------------------------------------------------- */
+.displayFlex{
+	display: flex;
+}
+.web-col{
+	max-width: 1000px; width: 100%;
+	margin: 0 auto;
+}
